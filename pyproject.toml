@@ -16,10 +16,10 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-postgrest = "^0.10.6"
+postgrest = {git = "https://github.com/necrosskull/postgrest-py.git"}
 realtime = "^1.0.0"
 gotrue = "^1.0.1"
-httpx = {git = "https://github.com/necrosskull/postgrest-py.git"}
+httpx = "^0.24.1"
 storage3 = {git = "https://github.com/supabase-community/storage-py.git"}
 supafunc = {git = "https://github.com/supabase-community/functions-py.git"}
 python-semantic-release = "7.34.6"
